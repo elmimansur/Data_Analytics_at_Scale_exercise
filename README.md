@@ -5,3 +5,7 @@ Counting Country Names from tweets
 * single_thread
 * multi-processing
 * map_reduce
+
+
+Data:
+* "a small, random sample" from 2016
