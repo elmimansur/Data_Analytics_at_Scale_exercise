@@ -24,7 +24,7 @@ if __name__=="__main__":
 	def output(key,val):
 		map_out[key].append(val)
 
-	for file in glob.glob("../lectures/data/twitter-geo/2016-01-*.gz"): # DO NOT TRY MORE THAN ONE MONTH
+	for file in glob.glob("../lectures/data/twitter-geo/2016-01-*.gz"):
 		with gzip.open(file,"rt") as fh:
 			for line in fh:
 				map_func(line)					
